@@ -1,0 +1,16 @@
+<html ng-app="myApp">
+    <head>
+        <script src="jquery-1.7.2.min.js"></script>
+        <script src="jquery.webcam.js"></script>
+        <!--<script src="script.js"></script>-->
+        <script src="angular.min.js"></script>
+        <script src="app.js"></script>
+        <script src="cameraDirective.js"></script>
+    </head>
+    <body ng-controller="myCtrl">
+        <!--<div id="camera"></div>-->
+        <camera-directive></camera-directive>
+        
+        <h2>Camera Supported</h2> <h2>{{cameraSupported}}</h2>
+    </body>    
+</html>
